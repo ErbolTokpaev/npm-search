@@ -1,10 +1,10 @@
 <template>
   <v-footer color="primary" class="footer" style="max-height: 80px; box-sizing: border-box;">
     <div class="d-flex justify-space-between align-center w-100">
-      <div class="copyright">
+      <div>
         &#169; 2023
       </div>
-      <div class="github">
+      <div>
         <v-avatar
           image="https://avatars.githubusercontent.com/u/8506214?s=400&u=2631133fa0118ad8ff69f4cce83fc9d5a448819b&v=4"
           class="mr-3"/>
@@ -22,8 +22,5 @@ a {
   max-height: 80px;
   height: 80px;
   box-sizing: border-box;
-}
-.copyright, .github  {
-  width: 150px;
 }
 </style>

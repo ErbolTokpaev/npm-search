@@ -46,5 +46,10 @@ span {
       font-size: 18px;
     }
   }
+  @media(max-width: 813px) {
+    .custom-element {
+      width: 100%;
+    }
+  }
 }
 </style>

@@ -71,7 +71,9 @@ const visible = ref(false);
 
 watch(page, (value) => {
   store.commit('SET_PAGE', value - 1);
-  if (value > 1) store.dispatch('search')
+  if (value >= 1) {
+    store.dispatch('search');
+  }
 });
 
 watch(query, (value) => {
