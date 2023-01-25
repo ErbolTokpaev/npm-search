@@ -1,0 +1,23 @@
+{
+  "name": "package-search",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "vite --port 8080",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "algoliasearch": "^4.14.3",
+    "vite-plugin-vuetify": "^1.0.1",
+    "vue": "^3.2.45",
+    "vuetify": "^3.1.2",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.0.0",
+    "sass": "^1.57.1",
+    "vite": "^4.0.0"
+  }
+}
