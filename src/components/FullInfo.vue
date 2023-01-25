@@ -76,7 +76,7 @@
   </v-dialog>
 </template>
 <script setup>
-import { ref, defineEmits, watch, computed } from 'vue';
+import { ref, watch, computed } from 'vue';
 import { useStore } from 'vuex';
 
 const store = useStore();
@@ -99,9 +99,6 @@ const formatNumber = (value) => {
   return count.toLocaleString('en-US', { maximumFractionDigits: 2 });
 }
 
-const chunkString = (str) => {
-  return str.match(new RegExp('.{1,70}', 'g'));
-}
 const dialog = ref(false);
 
 watch(
