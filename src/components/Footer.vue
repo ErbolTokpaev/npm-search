@@ -4,7 +4,7 @@
       <div class="copyright">
         &#169; 2023
       </div>
-      <div class="githu">
+      <div class="github">
         <v-avatar
           image="https://avatars.githubusercontent.com/u/8506214?s=400&u=2631133fa0118ad8ff69f4cce83fc9d5a448819b&v=4"
           class="mr-3"/>

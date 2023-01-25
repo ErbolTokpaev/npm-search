@@ -17,11 +17,3 @@ import DataTable from "./components/DataTable.vue";
     <Footer />
   </v-app>
 </template>
-
-<style scoped>
-.main {
-  max-width: 1200px;
-  margin: 32px auto;
-  height: 100%;
-}
-</style>

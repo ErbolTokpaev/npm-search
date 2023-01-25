@@ -17,13 +17,6 @@
         <span class="custom-mod">SCSS</span>
       </div>
     </div>
-<!--    <span>Main idea is to show:</span>-->
-<!--    <ol>-->
-<!--      <li>How to work with integrations</li>-->
-<!--      <li>How to work with vuex</li>-->
-<!--      <li>Basic knowledge about beauty frameworks</li>-->
-<!--    </ol>-->
-
   </div>
 </template>
 <style scoped lang="scss">
